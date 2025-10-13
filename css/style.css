@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    color: #C7D5E0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+body {
+    background-color: #2A475E;
+}
+/*inicio navbar*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #171A21;
+    height: 5rem;
+}
+
+nav a{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+nav a img {
+    height: 3rem;
+}
+nav a span {
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    color: #C49A3E;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 2rem;
+    
+}
+
+nav ul li a{
+    
+    color: #909CB8;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+}
+
+//  seccion de tarjetas
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+main .saludo-principal{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    min-height: 40vh; 
+    width: 70%;      
+    
+    margin: 0 auto;    
+    padding: 2rem 1rem; 
+}
+
+main .saludo-principal h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.inventario{
+    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+}
+.inventario h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    font-size: 2rem;
+}
+
+.inventario .contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+ .inventario .contenido .card{
+    background-color: #203C5C;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inventario .contenido .card .imagen-card{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+     transform: scale(1.20);
+}
+
+.inventario .contenido .card .card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    color: white;
+    
+   
+}
+
+
+.dinventario .contenido .card .card-info h3{
+    color: white;
+   
+}
+
+.inventario .contenido .card .card-info .opciones-comprar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 8px;
+
+}
+
+
+
+.inventario .contenido .card .card-info .opciones-comprar button{
+    margin-left: 15px;
+    background-color: #2A475E;
+    color: #C7D5E0;
+    border: #66C0F4;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    transition: 0.3ms;
+    cursor: pointer;
+}
+
+.inventario .contenido .card .card-info .opciones-comprar button:hover{
+    background-color: #66C0F4;
+    color: #171A21;
+    transition: 0.3ms;
+}
+
+
+
+.inventario .contenido .card .card-info .opciones-comprar .fa-solid{
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3ms;
+}
+.inventario .contenido .card .card-info .opciones-comprar .fa-solid:hover{
+     
+    color: #66C0F4;
+    transition: 0.3ms;
+}
+footer{
+    background-color: #171A21;
+    width: 100%;
+    height: 20vh;
+}
+
+
+.inventario p{
+    padding: 10px;
+    font-size: 1rem;
+    padding-bottom: 30px;
+
+}
+.inventario img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+
+
+footer {
+    background-color: #171A21;
+    color: #C7D5E0; 
+    width: 100%;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif; 
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #66C0F4; 
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #00ADEE; 
+}
+

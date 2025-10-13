@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- fuente de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,17 +15,249 @@
     <title>Dota Store</title>
 </head>
 <body>
-    <nav>
-        <a href=""><img src="./image/svg/dota.png" alt="logo"> <span>Dota Store</span></a>
+    <header>
+        <nav>
+            <a href=""><img src="./img/svg/dota.png" alt="logo"> <span>Dota Store</span></a>
 
-        <ul>
-            <li><a href="#" >Ofertas</a></li>
-            <li><a href="#" >Destacados</a></li>
-            <li><a href="#" >Productos</a></li>
-            <li><a href="#" >Contacto</a></li>
-            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <ul>
+                <li><a href="#ofertas" >Ofertas</a></li>
+                <li><a href="#destacados" >Destacados</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="./contacto.html" >Contacto</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
             
-        </ul>
-    </nav>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="saludo-principal">
+            <h1>Bienvenidos a DotaStore</h1>
+            <h2>
+                En Dota Store encontrás los mejores ítems, tesoros y cosméticos de Dota 2, con precios que se adaptan a todos los jugadores.
+                Explorá una colección única de sets, arcanas, tesoros y objetos raros para que cada batalla sea una demostración de estilo y poder.
+                Equipá a tus héroes favoritos, destacate en el campo de batalla y llevá tu colección al siguiente nivel.
+            </h2>
+        </div>
+    
+        <section class="inventario">
+        <h2 id="destacados">Productos Destacados</h2>
+
+        <div class="contenido">
+            <div class="card">
+                <img src="./img/store/inmortales/CaidaLunar_1.88.png" alt="card1" class="imagen-card">
+                <div class="card-info">
+                    <h3>Caida Lunar</h3>
+                    <p>$1.88</p>
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/store/inmortales/BrazaletesDeLaCavernaLuminaria_4.3.png" alt="card2" class="imagen-card">
+                <div class="card-info">
+                    <h3>Brazaletes de la caverna luminaria</h3>
+                <p>$4.30</p>
+                 <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <img src="./img/store/Tesoros/TesoroInmortal1_2019_1.18.png" alt="card3" class="imagen-card">
+                <div class="card-info">
+                    <h3>Tesoro Inmortal 1 2019</h3>
+                <p>$1.18</p>
+                 <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <img src="./img/store/inmortales/PulverizadorDePisis_0.74.png" alt="card4" class="imagen-card">
+                <div class="card-info">
+                    <h3>Pulverizador de Pisis</h3>
+                <p>$0.74</p>
+                 <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <img src="./img/store/arcanas/ElMagusCypher_27.92.png" alt="card5" class="imagen-card">
+                <div class="card-info">
+                    <h3>El Magus Cypher</h3>
+                <p>$27.92</p>
+                 <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <img src="./img/store/inmortales/ResplandoDelTirano_0.8.png" alt="card6" class="imagen-card">
+                <div class="card-info">
+                     <h3>Resplandor Del Tirano</h3>
+                <p>$0.80</p>
+                 <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="card">
+                <img src="./img/store/Tesoros/TesoroDelTestigoCarmesi2025_104.03.png" alt="card7" class="imagen-card">
+                <div class="card-info">
+                    <h3>Tesoro del Testigo Carmesi 2025</h3>
+                <p>$104.03</p>
+                 <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+        
+        </section>
+
+        <section class="inventario">
+            <h2 id="ofertas">Ofertas</h2>
+            <div class="contenido">
+
+                <div class="card">
+                <img src="./img/store/arcanas/FiestaDeLaAbcisionDeAspectoExaltado_19.83.png" alt="of1" class="imagen-card">
+                <div class="card-info">
+                    <h3>Fiesta De La Abcision </h3>
+                    <p><s>22.99</s>  $18.83</p>
+
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/store/arcanas/ParadojaMultiple_20.62.png" alt="off2" class="imagen-card">
+                <div class="card-info">
+                    <h3>Paradoja Multiple</h3>
+                    <p><s>$20.62</s>  $16.00</p>
+
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/store/Tesoros/TesoroDelTestigoCarmesi2024_108.7.png" alt="off3" class="imagen-card">
+                <div class="card-info">
+                    <h3>TesoroDelTestigoCarmesi2024_108</h3>
+                    <p><s>$108</s>  $80</p>
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/store/inmortales/JoyaDeEones_1.12.png" alt="off4" class="imagen-card">
+                <div class="card-info">
+                    <h3>Joya De Eones</h3>
+                    <p><s>$1.12</s>  $0.7</p>
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <div class="card">
+                <img src="./img/store/inmortales/BrazaletesDeLaCavernaLuminaria_4.3.png" alt="off5" class="imagen-card">
+                <div class="card-info">
+                    <h3>Brazaletes De La Caverna Luminaria</h3>
+                    <p><s>$4.3</s>  $2.88</p>
+
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/store/arcanas/YelmoDeLaTempestadDelDiosDelTrueno_24.01.png" alt="off6" class="imagen-card">
+                <div class="card-info">
+                    <h3>Yelmo De La Tempestad Del Dios Del Trueno</h3>
+                    <p><s>$24.01</s>  $18.80</p>
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/store/inmortales/ElAbcesador_4.73.png" alt="card1" class="imagen-card">
+                <div class="card-info">
+                    <h3>El Abcesador</h3>
+                    <p><s>$4.73</s>  $3.99</p>
+                    <div class="opciones-comprar">
+                        <button>Comprar</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+
+        <section class="inventario">
+            <h2 id="productos">Productos</h2>
+            <p>🚧 ¡Estamos trabajando en esto!
+Esta sección todavía no está disponible, pero estamos preparando contenido épico para vos. ¡Volvé pronto!</p>
+            <img src="./img/YVPE.gif" alt="construccion">
+        </section>
+    </main>
+
+
+
+    <footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Dota Store. Todos los derechos reservados.</p>
+        <p>Síguenos en:
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </p>
+    </div>
+</footer>
+
+
+    
 </body>
 </html>
