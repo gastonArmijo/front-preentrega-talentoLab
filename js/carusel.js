@@ -66,7 +66,7 @@ export const renderProductos = (productos, contenedorSelector) => {
     const contenedor = document.querySelector(contenedorSelector);
     if (!contenedor) return;
 
-    productos.forEach(p => {
+    productos.forEach((p) => {
         const tarjeta = document.createElement("article");
         tarjeta.classList.add("card");
 
